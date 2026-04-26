@@ -1,0 +1,17 @@
+{
+  "name": "kuzays-secret-vip-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot and VIP key API for kuzay2023's client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "express": "^4.21.2"
+  }
+}

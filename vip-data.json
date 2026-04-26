@@ -1,0 +1,18 @@
+{
+  "keys": {
+    "A5FA53-B3A392-70BB47": {
+      "key": "A5FA53-B3A392-70BB47",
+      "created_at": 1777242179515,
+      "created_by": "1482921668744839308",
+      "note": "",
+      "expires_at": 1777328579512,
+      "display": "1 day",
+      "lifetime": false,
+      "claimed_by": "044c5f1f-e323-4625-96f5-166694406c84",
+      "claimed_at": 1777242192665,
+      "claimed_username": "Kuzay2023",
+      "session_token": "24afa096f4c61666b77463031224ce76b7677b624ea2ed1d269ace4acb99745d",
+      "revoked": false
+    }
+  }
+}
