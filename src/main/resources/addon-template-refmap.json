@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "dev/autism/meteortranslation/mixin/ClientConnectionMixin": {
+      "channelRead0(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V": "Lnet/minecraft/class_2535;channelRead0(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V",
+      "send(Lnet/minecraft/network/packet/Packet;)V": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+    },
+    "dev/autism/meteortranslation/mixin/ControlsListWidgetMixin": {
+      "<init>": "Lnet/minecraft/class_459;<init>(Lnet/minecraft/class_6599;Lnet/minecraft/class_310;)V"
+    },
+    "dev/autism/meteortranslation/mixin/KeybindTextContentMixin": {
+      "<init>(Ljava/lang/String;)V": "Lnet/minecraft/class_2572;<init>(Ljava/lang/String;)V"
+    },
+    "dev/autism/meteortranslation/mixin/TranslatableTextContentMixin": {
+      "<init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V": "Lnet/minecraft/class_2588;<init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V"
+    },
+    "dev/autism/meteortranslation/mixin/WindowIconMixin": {
+      "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/autism/meteortranslation/mixin/ClientConnectionMixin": {
+        "channelRead0(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V": "Lnet/minecraft/class_2535;channelRead0(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V",
+        "send(Lnet/minecraft/network/packet/Packet;)V": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+      },
+      "dev/autism/meteortranslation/mixin/ControlsListWidgetMixin": {
+        "<init>": "Lnet/minecraft/class_459;<init>(Lnet/minecraft/class_6599;Lnet/minecraft/class_310;)V"
+      },
+      "dev/autism/meteortranslation/mixin/KeybindTextContentMixin": {
+        "<init>(Ljava/lang/String;)V": "Lnet/minecraft/class_2572;<init>(Ljava/lang/String;)V"
+      },
+      "dev/autism/meteortranslation/mixin/TranslatableTextContentMixin": {
+        "<init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V": "Lnet/minecraft/class_2588;<init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V"
+      },
+      "dev/autism/meteortranslation/mixin/WindowIconMixin": {
+        "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+      }
+    }
+  }
+}

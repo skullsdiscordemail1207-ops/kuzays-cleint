@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "dev.autism.meteortranslation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ControlsListWidgetMixin",
+    "WindowIconMixin"
+  ],
+  "verbose": true,
+  "mixinPriority": 87965423,
+  "priority": 97683223,
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ClientConnectionMixin",
+    "TranslatableTextContentMixin",
+    "KeybindTextContentMixin"
+  ],
+  "refmap": "addon-template-refmap.json"
+}

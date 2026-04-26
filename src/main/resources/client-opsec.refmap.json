@@ -1,0 +1,156 @@
+{
+  "mappings": {
+    "aurick/opsec/mod/mixin/client/AnvilScreenMixin": {
+      "<init>": "Lnet/minecraft/class_471;<init>(Lnet/minecraft/class_1706;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V"
+    },
+    "aurick/opsec/mod/mixin/client/ChannelRegistrationMixin": {
+      "handleConfigurationFinished": "Lnet/minecraft/class_8674;method_52794(Lnet/minecraft/class_8733;)V"
+    },
+    "aurick/opsec/mod/mixin/client/ClientCommonPacketListenerImplMixin": {
+      "handleResourcePackPush": "Lnet/minecraft/class_8673;method_52784(Lnet/minecraft/class_2720;)V"
+    },
+    "aurick/opsec/mod/mixin/client/ClientConnectionMixin": {
+      "channelActive": "Lnet/minecraft/class_2535;channelActive(Lio/netty/channel/ChannelHandlerContext;)V",
+      "channelInactive": "Lnet/minecraft/class_2535;channelInactive(Lio/netty/channel/ChannelHandlerContext;)V",
+      "configurePacketHandler": "Lnet/minecraft/class_2535;method_53859(Lio/netty/channel/ChannelPipeline;)V",
+      "send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+    },
+    "aurick/opsec/mod/mixin/client/ClientLanguageAccessor": {
+      "storage": "field_5330:Ljava/util/Map;"
+    },
+    "aurick/opsec/mod/mixin/client/ClientLanguageMixin": {
+      "Lnet/minecraft/locale/Language;loadFromJson(Ljava/io/InputStream;Ljava/util/function/BiConsumer;)V": "Lnet/minecraft/class_2477;method_29425(Ljava/io/InputStream;Ljava/util/function/BiConsumer;)V",
+      "appendFrom": "Lnet/minecraft/class_1078;method_4676(Ljava/lang/String;Ljava/util/List;Ljava/util/Map;)V",
+      "loadFrom": "Lnet/minecraft/class_1078;method_4675(Lnet/minecraft/class_3300;Ljava/util/List;Z)Lnet/minecraft/class_1078;"
+    },
+    "aurick/opsec/mod/mixin/client/ClientPacketListenerMixin": {
+      "Lnet/minecraft/network/chat/SignedMessageChain$Encoder;pack(Lnet/minecraft/network/chat/SignedMessageBody;)Lnet/minecraft/network/chat/MessageSignature;": "Lnet/minecraft/class_7610$class_7612;pack(Lnet/minecraft/class_7608;)Lnet/minecraft/class_7469;",
+      "close": "Lnet/minecraft/class_634;method_47658()V",
+      "handleLogin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+      "handleSystemChat": "Lnet/minecraft/class_634;method_43596(Lnet/minecraft/class_7439;)V",
+      "sendChat": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V"
+    },
+    "aurick/opsec/mod/mixin/client/ConnectScreenMixin": {
+      "startConnecting": "Lnet/minecraft/class_412;method_36877(Lnet/minecraft/class_437;Lnet/minecraft/class_310;Lnet/minecraft/class_639;Lnet/minecraft/class_642;ZLnet/minecraft/class_9112;)V"
+    },
+    "aurick/opsec/mod/mixin/client/DownloadQueueMixin": {
+      "method_55485": "Lnet/minecraft/class_9028;method_55485(Lnet/minecraft/class_9028$class_9029;Lnet/minecraft/class_9028$class_9030;Ljava/util/UUID;Lnet/minecraft/class_9028$class_9031;)V"
+    },
+    "aurick/opsec/mod/mixin/client/DownloadedPackSourceAccessor": {
+      "cleanupAfterDisconnect": "method_55541()V"
+    },
+    "aurick/opsec/mod/mixin/client/HttpUtilMixin": {
+      "downloadFile": "Lnet/minecraft/class_3521;method_55496(Ljava/nio/file/Path;Ljava/net/URL;Ljava/util/Map;Lcom/google/common/hash/HashFunction;Lcom/google/common/hash/HashCode;ILjava/net/Proxy;Lnet/minecraft/class_3521$class_9034;)Ljava/nio/file/Path;"
+    },
+    "aurick/opsec/mod/mixin/client/JoinMultiplayerScreenMixin": {
+      "init": "Lnet/minecraft/class_500;method_25426()V"
+    },
+    "aurick/opsec/mod/mixin/client/KeybindContentsMixin": {
+      "getNestedComponent": "Lnet/minecraft/class_2572;method_27691()Lnet/minecraft/class_2561;"
+    },
+    "aurick/opsec/mod/mixin/client/MinecraftAccessor": {
+      "downloadedPackSource": "field_40381:Lnet/minecraft/class_1066;",
+      "playerSocialManager": "field_26842:Lnet/minecraft/class_5520;",
+      "profileKeyPairManager": "field_39068:Lnet/minecraft/class_7853;",
+      "user": "field_1726:Lnet/minecraft/class_320;",
+      "userApiService": "field_26902:Lcom/mojang/authlib/minecraft/UserApiService;"
+    },
+    "aurick/opsec/mod/mixin/client/MinecraftMixin": {
+      "allowsTelemetry": "Lnet/minecraft/class_310;method_47596()Z",
+      "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+    },
+    "aurick/opsec/mod/mixin/client/OptionsMixin": {
+      "load()V": "Lnet/minecraft/class_315;method_1636()V"
+    },
+    "aurick/opsec/mod/mixin/client/ServerboundChatPacketMixin": {
+      "<init>(Ljava/lang/String;Ljava/time/Instant;JLnet/minecraft/network/chat/MessageSignature;Lnet/minecraft/network/chat/LastSeenMessages$Update;)V": "Lnet/minecraft/class_2797;<init>(Ljava/lang/String;Ljava/time/Instant;JLnet/minecraft/class_7469;Lnet/minecraft/class_7635$class_7636;)V",
+      "signature": "Lnet/minecraft/class_2797;comp_948()Lnet/minecraft/class_7469;"
+    },
+    "aurick/opsec/mod/mixin/client/SignEditScreenMixin": {
+      "<init>(Lnet/minecraft/world/level/block/entity/SignBlockEntity;ZZ)V": "Lnet/minecraft/class_7743;<init>(Lnet/minecraft/class_2625;ZZ)V"
+    },
+    "aurick/opsec/mod/mixin/client/TranslatableContentsMixin": {
+      "Lnet/minecraft/locale/Language;getOrDefault(Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/class_2477;method_48307(Ljava/lang/String;)Ljava/lang/String;",
+      "Lnet/minecraft/locale/Language;getOrDefault(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/class_2477;method_4679(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+      "decompose": "Lnet/minecraft/class_2588;method_11025()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "aurick/opsec/mod/mixin/client/AnvilScreenMixin": {
+        "<init>": "Lnet/minecraft/class_471;<init>(Lnet/minecraft/class_1706;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V"
+      },
+      "aurick/opsec/mod/mixin/client/ChannelRegistrationMixin": {
+        "handleConfigurationFinished": "Lnet/minecraft/class_8674;method_52794(Lnet/minecraft/class_8733;)V"
+      },
+      "aurick/opsec/mod/mixin/client/ClientCommonPacketListenerImplMixin": {
+        "handleResourcePackPush": "Lnet/minecraft/class_8673;method_52784(Lnet/minecraft/class_2720;)V"
+      },
+      "aurick/opsec/mod/mixin/client/ClientConnectionMixin": {
+        "channelActive": "Lnet/minecraft/class_2535;channelActive(Lio/netty/channel/ChannelHandlerContext;)V",
+        "channelInactive": "Lnet/minecraft/class_2535;channelInactive(Lio/netty/channel/ChannelHandlerContext;)V",
+        "configurePacketHandler": "Lnet/minecraft/class_2535;method_53859(Lio/netty/channel/ChannelPipeline;)V",
+        "send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+      },
+      "aurick/opsec/mod/mixin/client/ClientLanguageAccessor": {
+        "storage": "field_5330:Ljava/util/Map;"
+      },
+      "aurick/opsec/mod/mixin/client/ClientLanguageMixin": {
+        "Lnet/minecraft/locale/Language;loadFromJson(Ljava/io/InputStream;Ljava/util/function/BiConsumer;)V": "Lnet/minecraft/class_2477;method_29425(Ljava/io/InputStream;Ljava/util/function/BiConsumer;)V",
+        "appendFrom": "Lnet/minecraft/class_1078;method_4676(Ljava/lang/String;Ljava/util/List;Ljava/util/Map;)V",
+        "loadFrom": "Lnet/minecraft/class_1078;method_4675(Lnet/minecraft/class_3300;Ljava/util/List;Z)Lnet/minecraft/class_1078;"
+      },
+      "aurick/opsec/mod/mixin/client/ClientPacketListenerMixin": {
+        "Lnet/minecraft/network/chat/SignedMessageChain$Encoder;pack(Lnet/minecraft/network/chat/SignedMessageBody;)Lnet/minecraft/network/chat/MessageSignature;": "Lnet/minecraft/class_7610$class_7612;pack(Lnet/minecraft/class_7608;)Lnet/minecraft/class_7469;",
+        "close": "Lnet/minecraft/class_634;method_47658()V",
+        "handleLogin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+        "handleSystemChat": "Lnet/minecraft/class_634;method_43596(Lnet/minecraft/class_7439;)V",
+        "sendChat": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V"
+      },
+      "aurick/opsec/mod/mixin/client/ConnectScreenMixin": {
+        "startConnecting": "Lnet/minecraft/class_412;method_36877(Lnet/minecraft/class_437;Lnet/minecraft/class_310;Lnet/minecraft/class_639;Lnet/minecraft/class_642;ZLnet/minecraft/class_9112;)V"
+      },
+      "aurick/opsec/mod/mixin/client/DownloadQueueMixin": {
+        "method_55485": "Lnet/minecraft/class_9028;method_55485(Lnet/minecraft/class_9028$class_9029;Lnet/minecraft/class_9028$class_9030;Ljava/util/UUID;Lnet/minecraft/class_9028$class_9031;)V"
+      },
+      "aurick/opsec/mod/mixin/client/DownloadedPackSourceAccessor": {
+        "cleanupAfterDisconnect": "method_55541()V"
+      },
+      "aurick/opsec/mod/mixin/client/HttpUtilMixin": {
+        "downloadFile": "Lnet/minecraft/class_3521;method_55496(Ljava/nio/file/Path;Ljava/net/URL;Ljava/util/Map;Lcom/google/common/hash/HashFunction;Lcom/google/common/hash/HashCode;ILjava/net/Proxy;Lnet/minecraft/class_3521$class_9034;)Ljava/nio/file/Path;"
+      },
+      "aurick/opsec/mod/mixin/client/JoinMultiplayerScreenMixin": {
+        "init": "Lnet/minecraft/class_500;method_25426()V"
+      },
+      "aurick/opsec/mod/mixin/client/KeybindContentsMixin": {
+        "getNestedComponent": "Lnet/minecraft/class_2572;method_27691()Lnet/minecraft/class_2561;"
+      },
+      "aurick/opsec/mod/mixin/client/MinecraftAccessor": {
+        "downloadedPackSource": "field_40381:Lnet/minecraft/class_1066;",
+        "playerSocialManager": "field_26842:Lnet/minecraft/class_5520;",
+        "profileKeyPairManager": "field_39068:Lnet/minecraft/class_7853;",
+        "user": "field_1726:Lnet/minecraft/class_320;",
+        "userApiService": "field_26902:Lcom/mojang/authlib/minecraft/UserApiService;"
+      },
+      "aurick/opsec/mod/mixin/client/MinecraftMixin": {
+        "allowsTelemetry": "Lnet/minecraft/class_310;method_47596()Z",
+        "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+      },
+      "aurick/opsec/mod/mixin/client/OptionsMixin": {
+        "load()V": "Lnet/minecraft/class_315;method_1636()V"
+      },
+      "aurick/opsec/mod/mixin/client/ServerboundChatPacketMixin": {
+        "<init>(Ljava/lang/String;Ljava/time/Instant;JLnet/minecraft/network/chat/MessageSignature;Lnet/minecraft/network/chat/LastSeenMessages$Update;)V": "Lnet/minecraft/class_2797;<init>(Ljava/lang/String;Ljava/time/Instant;JLnet/minecraft/class_7469;Lnet/minecraft/class_7635$class_7636;)V",
+        "signature": "Lnet/minecraft/class_2797;comp_948()Lnet/minecraft/class_7469;"
+      },
+      "aurick/opsec/mod/mixin/client/SignEditScreenMixin": {
+        "<init>(Lnet/minecraft/world/level/block/entity/SignBlockEntity;ZZ)V": "Lnet/minecraft/class_7743;<init>(Lnet/minecraft/class_2625;ZZ)V"
+      },
+      "aurick/opsec/mod/mixin/client/TranslatableContentsMixin": {
+        "Lnet/minecraft/locale/Language;getOrDefault(Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/class_2477;method_48307(Ljava/lang/String;)Ljava/lang/String;",
+        "Lnet/minecraft/locale/Language;getOrDefault(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;": "Lnet/minecraft/class_2477;method_4679(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "decompose": "Lnet/minecraft/class_2588;method_11025()V"
+      }
+    }
+  }
+}

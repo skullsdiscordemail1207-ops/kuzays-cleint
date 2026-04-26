@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "com.kuzay2023.client.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityRendererMixin",
+    "FakeScoreboardInGameHudMixin",
+    "FreeLookCameraMixin",
+    "FreeLookMouseMixin",
+    "GameRendererZoomMixin",
+    "MinecraftClientEspMixin",
+    "MinecraftClientSessionAccessor",
+    "MultiplayerScreenMixin",
+    "PlayerEntityRendererMixin",
+    "PlayerListEntryMixin",
+    "RigHandledScreenMixin",
+    "RigItemStackMixin",
+    "ZoomMouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

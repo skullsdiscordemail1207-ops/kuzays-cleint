@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+.gradle-home/
+build/
+out/
+
+# IntelliJ / IDE
+.idea/
+*.iml
+
+# Minecraft run files
+run/
+
+# Logs
+*.log
+*.log.gz
+
+# Local runtime data / secrets
+.env
+vip-bot/.env
+vip-bot/vip-data.json
+config/
+
+# OS junk
+.DS_Store
+Thumbs.db

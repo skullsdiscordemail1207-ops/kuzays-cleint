@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "kuzay2023sclient:font/media_badge.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": [
+				"\uE000"
+			]
+		}
+	]
+}

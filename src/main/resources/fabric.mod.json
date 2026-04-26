@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "kuzay2023sclient",
+	"version": "${version}",
+	"name": "kuzay2023's client",
+	"description": "A modular Minecraft client framework with a Lunar-inspired GUI, theme system, HUD editor, and expandable module configuration.",
+	"authors": [
+		"kuzay2023"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kuzay2023sclient/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kuzay2023.client.KuzayClientMod"
+		],
+		"client": [
+			"com.kuzay2023.client.KuzayClientModClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "kuzay2023sclient.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
